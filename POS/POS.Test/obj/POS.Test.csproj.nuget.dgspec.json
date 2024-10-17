@@ -148,7 +148,11 @@
             },
             "Azure.Storage.Blobs": {
               "target": "Package",
-              "version": "[12.22.1, )"
+              "version": "[12.22.2, )"
+            },
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
             },
             "FluentValidation.AspNetCore": {
               "target": "Package",

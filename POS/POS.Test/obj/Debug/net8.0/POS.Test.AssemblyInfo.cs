@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("POS.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+637493feea49b9f700e96d45be835a1ee2912a29")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1188395caa4689f5e57f5b1da45065f0260b2621")]
 [assembly: System.Reflection.AssemblyProductAttribute("POS.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("POS.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

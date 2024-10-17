@@ -12,6 +12,7 @@
         public const string MESSAGE_TOKEN = "Token generado correctamente";
         public const string MESSAGE_VALIDATE = "Error de Validación";
         public const string MESSAGE_FAILED = "Operación Fallida";
+        public const string MESSAGE_TOKEN_ERROR = "Usuario Y/O contraseña son incorrectos, comprobar credenciales";
 
     }
 }
