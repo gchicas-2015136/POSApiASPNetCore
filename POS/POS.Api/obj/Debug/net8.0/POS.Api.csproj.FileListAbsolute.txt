@@ -150,3 +150,5 @@ C:\Proyectos\Sistema POS\POS\POS.Api\obj\Debug\net8.0\refint\POS.Api.dll
 C:\Proyectos\Sistema POS\POS\POS.Api\obj\Debug\net8.0\POS.Api.pdb
 C:\Proyectos\Sistema POS\POS\POS.Api\obj\Debug\net8.0\POS.Api.genruntimeconfig.cache
 C:\Proyectos\Sistema POS\POS\POS.Api\obj\Debug\net8.0\ref\POS.Api.dll
+C:\Proyectos\Sistema POS\POS\POS.Api\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Proyectos\Sistema POS\POS\POS.Api\obj\Debug\net8.0\POS.Api.sourcelink.json

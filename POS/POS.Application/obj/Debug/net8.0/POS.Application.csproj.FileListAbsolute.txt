@@ -17,3 +17,4 @@ C:\Proyectos\Sistema POS\POS\POS.Application\obj\Debug\net8.0\POS.Application.dl
 C:\Proyectos\Sistema POS\POS\POS.Application\obj\Debug\net8.0\refint\POS.Application.dll
 C:\Proyectos\Sistema POS\POS\POS.Application\obj\Debug\net8.0\POS.Application.pdb
 C:\Proyectos\Sistema POS\POS\POS.Application\obj\Debug\net8.0\ref\POS.Application.dll
+C:\Proyectos\Sistema POS\POS\POS.Application\obj\Debug\net8.0\POS.Application.sourcelink.json

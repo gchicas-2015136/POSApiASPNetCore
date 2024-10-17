@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Azure;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using POS.Application.Commons.Bases;
@@ -27,9 +28,29 @@ namespace POS.Application.Services
             _configuration = configuration;
         }
 
-        public Task<BaseResponse<string>> GenerateToken(TokenRequestDto requestDto)
+        public async Task<BaseResponse<string>> GenerateToken(TokenRequestDto requestDto)
         {
-            //Usar metodo recien creado con el token obtenido
+            var response = new BaseResponse<string>();
+            var account = await _unitOfWork.User.AccountByUserName(requestDto.UserName!);
+
+            if (account is not null)
+            {
+                if (BC.Verify(requestDto.Password, account.Password))
+                {
+                    response.IsSuccess = true;
+                    response.Data = GenerateToken(account);
+                    response.Message = ReplyMessage.MESSAGE_TOKEN;
+
+                    return response;
+                }
+                else
+                {
+                    response.IsSuccess = false;
+                    response.Message = ReplyMessage.MESSAGE_TOKEN_ERROR;
+                }
+            }
+
+            return response;
         }
 
         public async Task<BaseResponse<bool>> RegisterUser(UserRequestDto requestDto)
