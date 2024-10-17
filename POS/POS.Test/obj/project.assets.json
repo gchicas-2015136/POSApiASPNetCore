@@ -97,19 +97,6 @@
           }
         }
       },
-      "BCrypt.Net-Next/4.0.3": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/BCrypt.Net-Next.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/BCrypt.Net-Next.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "coverlet.collector/6.0.0": {
         "type": "package",
         "build": {
@@ -1654,7 +1641,6 @@
         "dependencies": {
           "AutoMapper": "13.0.1",
           "Azure.Storage.Blobs": "12.22.1",
-          "BCrypt.Net-Next": "4.0.3",
           "FluentValidation.AspNetCore": "11.3.0",
           "POS.Domain": "1.0.0",
           "POS.Infrastructure": "1.0.0",
@@ -1797,37 +1783,6 @@
         "lib/net6.0/Azure.Storage.Common.xml",
         "lib/netstandard2.0/Azure.Storage.Common.dll",
         "lib/netstandard2.0/Azure.Storage.Common.xml"
-      ]
-    },
-    "BCrypt.Net-Next/4.0.3": {
-      "sha512": "W+U9WvmZQgi5cX6FS5GDtDoPzUCV4LkBLkywq/kRZhuDwcbavOzcDAr3LXJFqHUi952Yj3LEYoWW0jbEUQChsA==",
-      "type": "package",
-      "path": "bcrypt.net-next/4.0.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "bcrypt.net-next.4.0.3.nupkg.sha512",
-        "bcrypt.net-next.nuspec",
-        "ico.png",
-        "lib/net20/BCrypt.Net-Next.dll",
-        "lib/net20/BCrypt.Net-Next.xml",
-        "lib/net35/BCrypt.Net-Next.dll",
-        "lib/net35/BCrypt.Net-Next.xml",
-        "lib/net462/BCrypt.Net-Next.dll",
-        "lib/net462/BCrypt.Net-Next.xml",
-        "lib/net472/BCrypt.Net-Next.dll",
-        "lib/net472/BCrypt.Net-Next.xml",
-        "lib/net48/BCrypt.Net-Next.dll",
-        "lib/net48/BCrypt.Net-Next.xml",
-        "lib/net5.0/BCrypt.Net-Next.dll",
-        "lib/net5.0/BCrypt.Net-Next.xml",
-        "lib/net6.0/BCrypt.Net-Next.dll",
-        "lib/net6.0/BCrypt.Net-Next.xml",
-        "lib/netstandard2.0/BCrypt.Net-Next.dll",
-        "lib/netstandard2.0/BCrypt.Net-Next.xml",
-        "lib/netstandard2.1/BCrypt.Net-Next.dll",
-        "lib/netstandard2.1/BCrypt.Net-Next.xml",
-        "readme.md"
       ]
     },
     "coverlet.collector/6.0.0": {
@@ -4685,19 +4640,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gianc\\.nuget\\packages\\": {}
+    "C:\\Users\\gechicas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Proyectos\\Sistema POS\\POS\\POS.Test\\POS.Test.csproj",
+      "projectUniqueName": "C:\\Proyects\\ASP NET CORE POS\\POSApiASPNetCore\\POS\\POS.Test\\POS.Test.csproj",
       "projectName": "POS.Test",
-      "projectPath": "C:\\Proyectos\\Sistema POS\\POS\\POS.Test\\POS.Test.csproj",
-      "packagesPath": "C:\\Users\\Gianc\\.nuget\\packages\\",
-      "outputPath": "C:\\Proyectos\\Sistema POS\\POS\\POS.Test\\obj\\",
+      "projectPath": "C:\\Proyects\\ASP NET CORE POS\\POSApiASPNetCore\\POS\\POS.Test\\POS.Test.csproj",
+      "packagesPath": "C:\\Users\\gechicas\\.nuget\\packages\\",
+      "outputPath": "C:\\Proyects\\ASP NET CORE POS\\POSApiASPNetCore\\POS\\POS.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Gianc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gechicas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4712,8 +4667,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Proyectos\\Sistema POS\\POS\\POS.Api\\POS.Api.csproj": {
-              "projectPath": "C:\\Proyectos\\Sistema POS\\POS\\POS.Api\\POS.Api.csproj"
+            "C:\\Proyects\\ASP NET CORE POS\\POSApiASPNetCore\\POS\\POS.Api\\POS.Api.csproj": {
+              "projectPath": "C:\\Proyects\\ASP NET CORE POS\\POSApiASPNetCore\\POS\\POS.Api\\POS.Api.csproj"
             }
           }
         }
@@ -4766,7 +4721,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

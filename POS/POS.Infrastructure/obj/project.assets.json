@@ -2855,19 +2855,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gianc\\.nuget\\packages\\": {}
+    "C:\\Users\\gechicas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Proyectos\\Sistema POS\\POS\\POS.Infrastructure\\POS.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Proyects\\ASP NET CORE POS\\POSApiASPNetCore\\POS\\POS.Infrastructure\\POS.Infrastructure.csproj",
       "projectName": "POS.Infrastructure",
-      "projectPath": "C:\\Proyectos\\Sistema POS\\POS\\POS.Infrastructure\\POS.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\Gianc\\.nuget\\packages\\",
-      "outputPath": "C:\\Proyectos\\Sistema POS\\POS\\POS.Infrastructure\\obj\\",
+      "projectPath": "C:\\Proyects\\ASP NET CORE POS\\POSApiASPNetCore\\POS\\POS.Infrastructure\\POS.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\gechicas\\.nuget\\packages\\",
+      "outputPath": "C:\\Proyects\\ASP NET CORE POS\\POSApiASPNetCore\\POS\\POS.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Gianc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gechicas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2882,11 +2882,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Proyectos\\Sistema POS\\POS\\POS.Domain\\POS.Domain.csproj": {
-              "projectPath": "C:\\Proyectos\\Sistema POS\\POS\\POS.Domain\\POS.Domain.csproj"
+            "C:\\Proyects\\ASP NET CORE POS\\POSApiASPNetCore\\POS\\POS.Domain\\POS.Domain.csproj": {
+              "projectPath": "C:\\Proyects\\ASP NET CORE POS\\POSApiASPNetCore\\POS\\POS.Domain\\POS.Domain.csproj"
             },
-            "C:\\Proyectos\\Sistema POS\\POS\\POS.Utilities\\POS.Utilities.csproj": {
-              "projectPath": "C:\\Proyectos\\Sistema POS\\POS\\POS.Utilities\\POS.Utilities.csproj"
+            "C:\\Proyects\\ASP NET CORE POS\\POSApiASPNetCore\\POS\\POS.Utilities\\POS.Utilities.csproj": {
+              "projectPath": "C:\\Proyects\\ASP NET CORE POS\\POSApiASPNetCore\\POS\\POS.Utilities\\POS.Utilities.csproj"
             }
           }
         }
@@ -2927,7 +2927,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
